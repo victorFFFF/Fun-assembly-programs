@@ -1,3 +1,4 @@
+TITLE Program HorseRaceVictorLi   (HorseRaceVictorLi.asm)
 
 ; Program Description:This program plays a horse race with 4 horses on a 12 unit long track.It then display the first horse to win of the race.
 ; Author:Victor Li
