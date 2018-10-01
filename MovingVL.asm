@@ -1,7 +1,7 @@
 TITLE MovingVL   (MovingVL.asm)
 
 ;Victor Li
-;Program creates a random generated colored pixel of my intials and moves in around the screen. It also goes upside down and reverse.
+;Program creates a random generated colored pixel of my intials and moves in around the screen. It also goes upside down and rearrange the letters in reverse.
   
 
 Include Irvine32.inc
