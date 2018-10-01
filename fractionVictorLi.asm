@@ -1,4 +1,4 @@
-TITLE Program Template     (template.asm)
+TITLE Program fractionVictorLi    (fractionVictorLi.asm)
 
 ; Program Description:This program generate two random fraction and adds them.Then it finds the GCF of the sum with EUCLUD's algorithmn 
 ;                     and simplifies the sum.Finally,it writes the sum as a mix number IF and ONLY IF the sum's numerator > denominator.
