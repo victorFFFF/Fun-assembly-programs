@@ -1,9 +1,7 @@
-TITLE multisegments     (mseg.asm)
+TITLE MovingVL   (MovingVL.asm)
 
-Comment @
-Author : Eran Barak
-Creation Date : Apr 7, 2016
-@ 
+;Victor Li
+;Program creates a random generated colored pixel of my intials and moves in around the screen. It also goes upside down and reverse.
   
 
 Include Irvine32.inc
@@ -11,7 +9,7 @@ Include Irvine32.inc
 .data			 
 	
 	;array for normal intials
-    array1 byte 2,' ',1,'x' ,7,' ',1,'x',2,' ',1,'x',4,' '                
+        array1 byte 2,' ',1,'x' ,7,' ',1,'x',2,' ',1,'x',4,' '                
 	array2 byte 3,' ',1,'x' ,5,' ',1,'x',3,' ',1,'x',4,' '    
 	array3 byte 4,' ',1,'x' ,3,' ',1,'x',4,' ',1,'x',4,' '	
 	array4 byte 5,' ',1,'x' ,1,' ',1,'x',5,' ',1,'x',4,' '    
@@ -30,14 +28,14 @@ Include Irvine32.inc
 	array7 byte 4,' ',1,'x',1,' ',1,'x',7,' ',1,'x',5,' '
 	array8 byte 3,' ',1,'x',3,' ',1,'x',6,' ',1,'x',5,' '
 	array9 byte 2,' ',1,'x',5,' ',1,'x',5,' ',1,'x',5,' '
-   array10 byte 1,' ',1,'x',7,' ',1,'x',4,' ',1,'x',5,' '
+        array10 byte 1,' ',1,'x',7,' ',1,'x',4,' ',1,'x',5,' '
    
     ;ecx count for upsidedownInitals
    	L6 = lengthof array6/2
 	L7 = lengthof array7/2
 	L8 = lengthof array8/2
 	L9 = lengthof array9/2
-   L10 = lengthof array10/2
+        L10 = lengthof array10/2
    
      
    ;array for backwords initails
